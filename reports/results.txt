@@ -1,0 +1,17 @@
+Rows: 90,189 | duplicate users: 0
+
+[1] Group sizes: {'gate_40': 45489, 'gate_30': 44700} | SRM p-value = 0.009
+
+[2] Max game rounds: 49,854 (extreme outlier, removed for the rounds analysis)
+
+[3] Retention by version
+retention_1: gate_30=44.82% gate_40=44.23% | diff=-0.59% 95% CI [-1.24%, +0.06%] | z-test p=0.0744
+   chi-square p=0.0755
+retention_7: gate_30=19.02% gate_40=18.20% | diff=-0.82% 95% CI [-1.33%, -0.31%] | z-test p=0.0016
+   chi-square p=0.0016
+
+[4] Bootstrap diff (gate_40 - gate_30), 7-day retention: mean=-0.828%, 95% CI [-1.322%, -0.308%], P(gate_40 worse) = 99.9%
+
+[5] Game rounds median: gate_30=17.0 gate_40=16.0 | Mann-Whitney p=0.045
+
+[6] With ~44,700 users per group, 80% power detects a 7-day retention change of about 0.74%
